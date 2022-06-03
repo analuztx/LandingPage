@@ -1,0 +1,149 @@
+body{
+    background-color: #f9f2e7;
+   }
+
+#menu{
+    top: 0%;
+    left: 0%;
+    height: 90%;
+    width: 100%;
+    background-color: #07889b;  
+    position: absolute;
+}
+
+h1{
+    font-size: 20px;
+    margin-left: 55px;
+    position: relative;
+    top: 0px;
+    font-family: 'Mônaco';
+    color: #4e4e4e;
+}
+
+#rodape{
+    bottom: 0%;
+    left: 0%;
+    height: 100px;
+    width: 100%;
+    background-color: #4ab;
+    position: absolute;
+}
+
+h2{
+    position: relative;
+    float:left;
+    font-size: 20px;
+    left: 0px;
+    bottom: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e2e2e2;
+    padding: 0 150px ;
+}
+
+h3{
+
+    position: relative;
+    float:left;
+    font-size: 21px;
+    left: 62px;
+    bottom: 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e2e2e2;
+}
+
+.fotologo{
+    width: 100px;
+    height: 100px;
+    margin-left: 33%;
+    margin-top: 50px;
+    opacity: 0.4;
+}
+
+.submenu{
+    top: 50px;
+    left: 10%;
+    height: 70px;
+    width: 80%;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.iconeinstagram{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    position:absolute;
+}
+
+.iconett{
+    width: 60px;
+    height: 60px;
+    margin-left: 115px;
+    position: relative;
+ 
+}
+
+
+a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;  
+  }
+
+
+  h4{
+    font-size: 15px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 60px;
+    font-family: "Garamond", Times, serif;
+    color: #e2e2e2;
+  }
+
+  
+  h5{
+    position: relative;
+    float:left;
+    font-size: 15px;
+    left: 550px;
+    font-family:'Quicksand';
+    color: #007bff;
+    padding: 0 50px ;
+    font-weight: bolder;
+    text-decoration: none !important;
+  }
+
+  h5:hover{
+    text-shadow: 0 0 1px rgb(17, 52, 229), 0 0 1px rgb(8, 0, 255);
+  }
+
+  h6{
+    font-size: 18px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 30px;
+    font-family: "Garamond", Times, serif;
+    color: #e2e2e2;
+  }
+
+  .equipe{
+    column-count: 100px;
+  }
+
+  .abas{
+    margin-left: 0%;
+    position: absolute;
+    display: flex;
+  }
+
+  .sublogo{
+    left: 50px;
+    top: 10px;
+    position: relative;
+  }
+
+  @font-face {
+    src: url(../quicksand/Quicksand-VariableFont_wght.ttf);
+    font-family: 'Quicksand';
+  }

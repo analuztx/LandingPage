@@ -1,6 +1,10 @@
 body{
-    background-color: #f9f2e7;
+    background-color: #f1f9fc;
    }
+
+*{
+  margin: 0;
+}
 
 #menu{
     top: 0%;
@@ -20,30 +24,19 @@ h1{
     color: #4e4e4e;
 }
 
-#rodape{
-    bottom: 0%;
-    left: 0%;
-    height: 100px;
-    width: 100%;
-    background-color: #4ab;
-    position: absolute;
-}
-
 h2{
     position: relative;
     float:left;
     font-size: 28px;
-    left: 25%;
+    left: 10%;
     margin-top: 300px;
     font-family: 'Poppins-LightItalic';
     color: #e2e2e2;
 }
 
 h3{
-    position: relative;
-    float:left;
     font-size: 20px;
-    right: 19%;
+    margin-left: 40%;
     margin-top: 350px;
     font-family: 'Poppins-LightItalic';
     color: #e2e2e2;
@@ -88,12 +81,10 @@ a {
 
 
   h4{
-    font-size: 15px;
-    margin-left: 30px;
-    position: relative;
-    bottom: 60px;
-    font-family: "Garamond", Times, serif;
-    color: #e2e2e2;
+    font-size: 25px;
+    font-family: "Quicksand", Times, serif;
+    color: #00607e;
+    font-weight: bold;
   }
 
   
@@ -102,6 +93,7 @@ a {
     float:left;
     font-size: 15px;
     left: 550px;
+    top: 25px;
     font-family:'Quicksand';
     color: #00779b;
     padding: 0 50px ;
@@ -113,13 +105,11 @@ a {
     text-shadow: 0 0 1px #00607e, 0 0 1px #00607e;
   }
 
-  h6{
+  h1{
     font-size: 18px;
-    margin-left: 20px;
-    position: relative;
-    bottom: 30px;
-    font-family: "Garamond", Times, serif;
-    color: #e2e2e2;
+    right: 52px;
+    font-family:'Poppins-Regular', Times, serif;
+    color: #00607e;
   }
 
   .equipe{
@@ -137,7 +127,156 @@ a {
     top: 10px;
     position: relative;
   }
+
+  .caixas{
+    width: 100%px;
+    height: 400px;
+    background-color: #ecf6fc ;
+    top: 710px;
+    margin-left: 0%;
+    position: relative;
+  }
+
+  .quadroum{
+    width: 350px;
+    height: 250px;
+    left: 150px;
+    background-color: #ecf6fc;
+    border-radius: 12%;
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    box-shadow: 5px 10px 50px #4e4e4e78;
+  }
+
+  .quadrodois{
+    width: 350px;
+    height: 250px;
+    left: 550px;
+    background-color: #ecf6fc;
+    border-radius: 12%;
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    box-shadow: 5px 10px 50px #4e4e4e78;
+  }
+
+  .quadrotres{
+    width: 350px;
+    height: 250px;
+    left: 950px;
+    background-color: #ecf6fc;
+    border-radius: 12%;
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    box-shadow: 5px 10px 50px #4e4e4e78;
+  }
+
+  .pessoa{
+    margin-left: 120px;
+    top: 15px;
+    position: absolute;
+    background-color: #00779b;
+    border-radius: 50%;
+  }
+
+  .brain{
+    margin-left: 120px;
+    top: 15px;
+    position: absolute;
+    background-color: #00779b;
+    border-radius: 50%;
+  }
+
+  .ideia{    
+    margin-left: 120px;
+    top: 15px;
+    position: absolute;
+    background-color: #00779b;
+    border-radius: 50%;
+  }
+
+  .sobre{
+    width: 99%;
+    height: 500px;
+    position: absolute;
+    background-color: #ecf6fc;
+    top: 1050px;
+  }
+
+  .equipe{
+    margin-left: 12%;
+    top: 5%;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipesobre{
+    margin-left: 29%;
+    top: 60px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .equipe2{
+    margin-left: 0%;
+    top: 45%;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipesobre2{
+    margin-left: 37%;
+    top: 150px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .equipe3{
+    left: 12%;
+    top: 80%;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .equipesobre3{
+    margin-left: 29%;
+    top: 240px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .internet{
+    margin-left: 5%;
+    top: 15%;
+    display: inline-block;
+  }
   
+  .app{
+    margin-left: 25%;
+    top: 15%;
+    display: inline-block;
+  }
+
+  .arduino{
+  margin-left: 300px;
+  top: 10%;
+  position: relative;
+  display: inline-block;
+  }
+
+  .titulosobre{
+    margin-left: 44%;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
 
   @font-face {
     src: url(../quicksand/Quicksand-VariableFont_wght.ttf);

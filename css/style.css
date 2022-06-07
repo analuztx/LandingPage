@@ -93,7 +93,7 @@ a {
     float:left;
     font-size: 18px;
     left: 490px;
-    top: 23image.pngpx;
+    top: 20px;
     font-family:'Quicksand';
     color: #00779b;
     padding: 0 50px ;
@@ -207,7 +207,7 @@ a {
 
   .equipe{
     margin-left: 12%;
-    top: 5%;
+    top: 20%;
     position: absolute;
     display: inline-block;
   }
@@ -221,7 +221,7 @@ a {
 
   .equipe2{
     margin-left: 0%;
-    top: 45%;
+    top: 60%;
     position: absolute;
     display: inline-block;
   }
@@ -235,7 +235,7 @@ a {
 
   .equipe3{
     left: 12%;
-    top: 80%;
+    top: 98%;
     position: absolute;
     display: inline-block;
   }
@@ -268,6 +268,18 @@ a {
 
   .titulosobre{
     margin-left: 44%;
+  }
+
+  
+  .titulodistanciamento{
+    position: relative;
+    margin-left: 40%;
+    margin-top: 38%;
+  }
+
+  hr{
+    width: 50%;
+    margin-left: 24%;
   }
 
 html {

@@ -31,7 +31,7 @@ h2{
     left: 10%;
     margin-top: 300px;
     font-family: 'Poppins-LightItalic';
-    color: #e2e2e2;
+    color: #fff;
 }
 
 h3{
@@ -39,7 +39,7 @@ h3{
     margin-left: 40%;
     margin-top: 350px;
     font-family: 'Poppins-LightItalic';
-    color: #e2e2e2;
+    color: #fff;
 }
 
 .fotologo{
@@ -48,7 +48,7 @@ h3{
 }
 
 .submenu{
-    top: 50px;
+    top: 20px;
     left: 10%;
     height: 70px;
     width: 80%;
@@ -131,7 +131,6 @@ a {
   .caixas{
     width: 100%px;
     height: 400px;
-    background-color: #ecf6fc ;
     top: 710px;
     margin-left: 0%;
     position: relative;
@@ -200,14 +199,13 @@ a {
   .sobre{
     width: 99%;
     height: 500px;
-    position: absolute;
-    background-color: #ecf6fc;
-    top: 1050px;
+    position: relative;
+    top: 320px;
   }
 
   .equipe{
-    margin-left: 12%;
-    top: 20%;
+    margin-left: 15%;
+    top: 8%;
     position: absolute;
     display: inline-block;
   }
@@ -274,12 +272,58 @@ a {
   .titulodistanciamento{
     position: relative;
     margin-left: 40%;
-    margin-top: 38%;
+    margin-top: 28%;
+    display:flex;
   }
 
   hr{
     width: 50%;
     margin-left: 24%;
+  }
+
+  .distanciamento{
+    margin: 0%;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 0%;
+    display: inline-block;
+  }
+
+  .gifdistancia{
+    margin-left: 40%;
+    margin-top: 5%;
+    display: inline-block;
+    border-radius: 20%;
+  }
+
+  .oms{
+    margin-left: 60px;
+    display: inline-block;
+    position: relative;
+    bottom: 280px;
+  }
+
+  .caixapessoa{
+    margin-top: 36%;
+    text-align: center;
+    margin-left: 3%;
+    width: 380px;
+  }
+
+  .caixabrain{
+    margin-top: 36%;
+    text-align: center;
+    margin-left: 3%;
+    width: 380px;
+  }
+
+  .caixaideia{
+    margin-top: 36%;
+    text-align: center;
+    margin-left: 3%;
+    width: 380px;
   }
 
 html {

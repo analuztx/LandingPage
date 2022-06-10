@@ -6,6 +6,20 @@ body{
   margin: 0;
 }
 
+#anima-div  {
+  background: url("../img/distancia.png") -0px;
+  height:346px;
+  width:474px;
+  animation: anima-sprite 1s steps(90) infinite;
+  position: relative;
+  left: 55%;
+  top: 40%;
+}
+
+@keyframes anima-sprite{
+  100%{background-position-x: -45000px;}
+}
+
 #menu{
     top: 0%;
     left: 0%;
@@ -289,20 +303,21 @@ a {
     top: 200px;
     left: 0%;
     display: inline-block;
+    
   }
 
   .gifdistancia{
-    margin-left: 40%;
+    margin-left: 60%;
     margin-top: 5%;
     display: inline-block;
     border-radius: 20%;
   }
 
   .oms{
-    margin-left: 60px;
+    margin-left: 70px;
     display: inline-block;
     position: relative;
-    bottom: 280px;
+    bottom: 90px;
   }
 
   .caixapessoa{

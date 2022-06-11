@@ -61,6 +61,7 @@ h3{
     height: 100%;
 }
 
+
 .submenu{
     top: 20px;
     left: 10%;
@@ -106,7 +107,7 @@ a {
     position: relative;
     float:left;
     font-size: 18px;
-    left: 490px;
+    left: 320px;
     top: 20px;
     font-family:'Quicksand';
     color: #00779b;
@@ -137,8 +138,8 @@ a {
   }
 
   .sublogo{
-    left: 50px;
-    top: 10px;
+    right: 10px;
+    bottom: 40px;
     position: relative;
   }
 
@@ -219,7 +220,7 @@ a {
 
   .equipe{
     margin-left: 15%;
-    top: 40%;
+    top: 49%;
     position: absolute;
     display: inline-block;
   }
@@ -233,7 +234,7 @@ a {
 
   .equipe2{
     margin-left: 0%;
-    top: 60%;
+    top: 90%;
     position: absolute;
     display: inline-block;
   }
@@ -247,7 +248,7 @@ a {
 
   .equipe3{
     left: 12%;
-    top: 98%;
+    top: 650px;
     position: absolute;
     display: inline-block;
   }
@@ -280,6 +281,11 @@ a {
 
   .titulosobre{
     margin-left: 44%;
+  }
+
+  .titulointegrantes{
+    margin-left: 44%;
+    margin-top: 35%;
   }
 
   
@@ -349,22 +355,168 @@ html {
   scroll-margin-top: .8em;
 }
 
+  .fotoana{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 20px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhaa{
+    left: 40px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobrea{
+    top: 50px;
+    left: 80px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotodavim{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 90px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhadm{
+    left: 90px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobredm{
+    top: 50px;
+    left: 140px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotodavil{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 150px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhadl{
+    top: 50px;
+    left: 150px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobredl{
+    top: 49px;
+    left: 190px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotoat{
+    width: 280px;
+    height: 280px;
+    border-radius: 40%;
+    left: 200px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhaat{
+    left: 200px;
+    top: 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobreat{
+    top: 50px;
+    left: 70px;
+    position: relative;
+    display: inline-block;
+  }
+
+  h6{
+    font-family:'KdamThmorPro-Regular';
+    font-size: 20px;
+    margin-right: 50px;
+  }
+
+  .sobreana{
+    left: 40px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobredavimathais{
+    left: 120px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .sobredavilopes{
+    left: 160px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .sobreartur{
+    left: 190px;
+    top: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .fotinhaa img{border-radius: 50%;}
+  .fotinhadm img{border-radius: 50%;}
+  .fotinhadl img{border-radius: 50%;}
+  .fotinhaat img{border-radius: 50%;}
+
   @font-face {
-    src: url(../quicksand/Quicksand-VariableFont_wght.ttf);
+    src: url(../fonts/quicksand/Quicksand-VariableFont_wght.ttf);
     font-family: 'Quicksand';
   }
 
   @font-face {
     font-family: 'JosefinSans-VariableFont_wght' ;
-    src: url(../josefin/JosefinSans-VariableFont_wght.ttf);
+    src: url(../fonts/josefin/JosefinSans-VariableFont_wght.ttf);
   }
 
   @font-face {
     font-family: 'Poppins-Regular' ;
-    src: url(../pop/Poppins-Regular.ttf);
+    src: url(../fonts/pop/Poppins-Regular.ttf);
   }
 
   @font-face {
     font-family:'Poppins-LightItalic' ;
-    src: url(../pop/Poppins-LightItalic.ttf);
+    src: url(../fonts/pop/Poppins-LightItalic.ttf);
+  }
+
+  @font-face {
+    font-family:'KdamThmorPro-Regular' ;
+    src: url(../fonts/kdam/KdamThmorPro-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:'BebasNeue-Regular' ;
+    src: url(../fonts/bebas/BebasNeue-Regular.ttf);
   }

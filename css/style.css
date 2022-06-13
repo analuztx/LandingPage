@@ -96,7 +96,7 @@ a {
 
 
   h4{
-    font-size: 25px;
+    font-size: 23px;
     font-family: "Quicksand", Times, serif;
     color: #00607e;
     font-weight: bold;
@@ -219,43 +219,43 @@ a {
   }
 
   .equipe{
-    margin-left: 15%;
-    top: 49%;
+    right: 7%;
+    top: 98%;
     position: absolute;
     display: inline-block;
   }
 
   .equipesobre{
-    margin-left: 29%;
-    top: 60px;
+    margin-left: 40%;
+    top: 100px;
     position: relative;
     display: inline-block;
-  }
+    }
 
   .equipe2{
-    margin-left: 0%;
-    top: 90%;
+    left: 7%;
+    top: 140%;
     position: absolute;
     display: inline-block;
   }
 
   .equipesobre2{
-    margin-left: 37%;
-    top: 150px;
+    margin-left: 22%;
+    top: 230px;
     position: relative;
     display: inline-block;
   }
 
   .equipe3{
-    left: 12%;
-    top: 650px;
+    left: 6%;
+    top: 250px;
     position: absolute;
     display: inline-block;
   }
 
   .equipesobre3{
-    margin-left: 29%;
-    top: 240px;
+    margin-left: 22%;
+    top: 20px;
     position: relative;
     display: inline-block;
   }
@@ -323,7 +323,7 @@ a {
     margin-left: 70px;
     display: inline-block;
     position: relative;
-    bottom: 90px;
+    bottom: 200px;
   }
 
   .caixapessoa{

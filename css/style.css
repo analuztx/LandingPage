@@ -132,7 +132,7 @@ a {
   }
 
   .abas{
-    margin-left: 0%;
+    margin-left: -30px;
     position: absolute;
     display: flex;
   }
@@ -219,7 +219,7 @@ a {
   }
 
   .subtitulo{
-    left: 18%;
+    left: 20%;
     top: 45%;
     column-count: 100px;
     position: absolute;
@@ -289,7 +289,7 @@ a {
   }
 
   .titulosobre{
-    margin-left: 44%;
+    margin-left: 45%;
   }
 
   .integrantes{
@@ -419,7 +419,7 @@ html {
 
   .sobredm{
     top: 50px;
-    left: 140px;
+    left: 130px;
     position: relative;
     display: inline-block;
   }
@@ -476,6 +476,7 @@ html {
     font-family:'KdamThmorPro-Regular';
     font-size: 20px;
     margin-right: 50px;
+    text-align: center;
   }
 
   .sobreana{
@@ -486,7 +487,7 @@ html {
   }
 
   .sobredavimathais{
-    left: 120px;
+    left: 93px;
     top: 50px;
     position: relative;
     display: inline-block;
@@ -494,7 +495,7 @@ html {
   }
 
   .sobredavilopes{
-    left: 160px;
+    left: 170px;
     top: 50px;
     position: relative;
     display: inline-block;
@@ -516,8 +517,8 @@ html {
   #myBtn {
     display: none;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 50px;
+    right: 10px;
     z-index: 999;
     font-size: 18px;
     border: 1;
@@ -527,8 +528,8 @@ html {
     cursor: pointer;
     padding: 15px;
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
   }
   
   #myBtn:hover {
@@ -536,8 +537,8 @@ html {
   }
 
   .scroll{
-    margin-top: -5px;
-    margin-left: -4px;
+    margin-top: -6px;
+    margin-left: -6px;
   }
 
   @font-face {

@@ -1,2 +1,2 @@
-# TCC
-Projeto de Trabalho de Conclusão de Curso
+# LANDING PAGE
+Projeto de Landing Page da equipe do TCC

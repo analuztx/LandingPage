@@ -35,14 +35,6 @@ body{
     position: absolute;
 }
 
-h1{
-    font-size: 20px;
-    margin-left: 55px;
-    position: relative;
-    top: 0px;
-    font-family: 'Mônaco';
-    color: #4e4e4e;
-}
 
 h2{
     position: relative;
@@ -102,7 +94,7 @@ a {
   h4{
     font-size: 23px;
     font-family: "Quicksand", Times, serif;
-    color: #00607e;
+    color: #004053;
     font-weight: bold;
   }
 
@@ -128,7 +120,7 @@ a {
     font-size: 18px;
     right: 52px;
     font-family:'Poppins-Regular', Times, serif;
-    color: #00607e;
+    color: #003b4d;
   }
 
   .abas{
@@ -227,7 +219,7 @@ a {
   }
 
   .equipe{
-    left: 80%;
+    left: 85%;
     top: 95%;
     column-count: 100px;
     position: absolute;
@@ -249,7 +241,7 @@ a {
   }
 
   .equipesobre2{
-    right: 8%;
+    left: 22%;
     top: 695px;
     position: absolute;
     display: inline-block;
@@ -296,7 +288,7 @@ a {
     width: 100%;
     height: 500px;
     position: absolute;
-    top: 2200px;
+    top: 2100px;
   }
 
   .titulointegrantes{
@@ -351,21 +343,21 @@ a {
     margin-top: 36%;
     text-align: center;
     margin-left: 3%;
-    width: 380px;
+    width: 320px;
   }
 
   .caixabrain{
     margin-top: 36%;
     text-align: center;
-    margin-left: 3%;
-    width: 380px;
+    margin-left: 4%;
+    width: 320px;
   }
 
   .caixaideia{
     margin-top: 36%;
     text-align: center;
     margin-left: 3%;
-    width: 380px;
+    width: 320px;
   }
 
 html {
@@ -398,6 +390,7 @@ html {
     left: 80px;
     position: relative;
     display: inline-block;
+    text-decoration: underline;
   }
 
   .fotodavim{
@@ -419,9 +412,10 @@ html {
 
   .sobredm{
     top: 50px;
-    left: 130px;
+    left: 125px;
     position: relative;
     display: inline-block;
+    text-decoration: underline;
   }
 
   .fotodavil{
@@ -446,6 +440,7 @@ html {
     left: 190px;
     position: relative;
     display: inline-block;
+    text-decoration: underline;
   }
 
   .fotoat{
@@ -467,27 +462,29 @@ html {
 
   .sobreat{
     top: 50px;
-    left: 70px;
+    left: 66px;
     position: relative;
     display: inline-block;
+    text-decoration: underline;
   }
 
   h6{
-    font-family:'KdamThmorPro-Regular';
-    font-size: 20px;
+    font-family:'BebasNeue-Regular';
+    font-size: 34px;
     margin-right: 50px;
-    text-align: center;
+    color: #002631;
   }
 
   .sobreana{
-    left: 40px;
+    left: 20px;
     top: 50px;
     position: relative;
     display: inline-block;
+    text-align: center;
   }
 
   .sobredavimathais{
-    left: 93px;
+    left: 80px;
     top: 50px;
     position: relative;
     display: inline-block;
@@ -495,17 +492,19 @@ html {
   }
 
   .sobredavilopes{
-    left: 170px;
+    left: 155px;
     top: 50px;
     position: relative;
     display: inline-block;
+    text-align: center;
   }
 
   .sobreartur{
-    left: 190px;
+    left: 175px;
     top: 50px;
     position: relative;
     display: inline-block;
+    text-align: center;
   }
 
   .fotinhaa img{border-radius: 50%;}
@@ -539,6 +538,14 @@ html {
   .scroll{
     margin-top: -6px;
     margin-left: -6px;
+  }
+
+  .footer{
+    top: 100%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #00607e;
   }
 
   @font-face {
